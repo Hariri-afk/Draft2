@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact us</title>
+	<link rel="stylesheet" type="text/css" href="contact.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+</head>
+<body>
+        <!-- header -->
+    <header>
+        <nav class = "navbar">
+            <div class = "container">
+                <a href = "index.html" class = "navbar-brand">TechieTalk</a>
+                <div class = "navbar-nav">
+                  <a href = "about.html">About</a>
+                  <a href = "podcast.html">Podcast</a>
+                  <a href = "article.html">Article</a>
+                  <a href = "contact.html">Contact</a>
+                </div>
+              </div>
+            </nav>
+        </div>
+    </header>
+    <!-- end of header -->
+
+	<div class="container">
+		<div class="contact-box">
+			<div class="left"></div>
+			<div class="right">
+                <form id="contact-form" method = "post" action = "contact.php">
+				<h2>Contact Us</h2>
+				<input name = "name" type="text" class="field" placeholder="Your Name">
+				<input name = "email" type="text" class="field" placeholder="Your Email">
+				<input name = "subject" type="text" class="field" placeholder="Subject">
+				<textarea name = "message" placeholder="Message" class="field"></textarea>
+				<button type = "submit" name = "submit" class="btn">Send</button>
+                </form>
+			</div>
+		</div>
+	</div>
+</body>
+</html> 
